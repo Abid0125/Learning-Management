@@ -79,7 +79,7 @@ return [
         //     'table' => 'users',
         // ],
     ],
-
+$__currentLoopData($__currentLoopData)
     /*
     |--------------------------------------------------------------------------
     | Resetting Passwords
