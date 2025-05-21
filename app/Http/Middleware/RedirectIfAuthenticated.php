@@ -60,7 +60,8 @@ class RedirectIfAuthenticated
                 return route($routeName);
             }
         }
-
+        
+        return '/';
 
         // Old Logic
         // foreach (['admin.dashboard', 'dashboard'] as $uri) {
@@ -77,7 +78,6 @@ class RedirectIfAuthenticated
         //     }
         // }
 
-        return '/';
     }
 
     /**
